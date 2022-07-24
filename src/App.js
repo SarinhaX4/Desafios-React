@@ -1,9 +1,8 @@
-import './App.css';  
+import './App.css';
 import Soma from './Desafio22/Soma';  
 import Subtracao from './Desafio22/Subtracao';
 import Multiplicacao from './Desafio22/Multiplicacao';
 import Divisao from './Desafio22/Divisao';
-import { Component } from 'react';
 
 const Calculadora = (props) => <h3>Calculadora:</h3>
 
