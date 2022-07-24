@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css';  
+import Soma from './Soma';  
+import Subtracao from './Subtracao';
+import Multiplicacao from './Multiplicacao';
+import Divisao from './Divisao';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Soma a={5} b={3} />
+      <Subtracao a={10} b={3} />
+      <Divisao a={10} b={2} />
+      <Multiplicacao a={10} b={3} />
     </div>
   );
 }
